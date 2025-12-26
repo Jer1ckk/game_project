@@ -20,7 +20,7 @@ public class SimplePlant : MonoBehaviour
     public void StartGrowth()
     {
         ShowStage(0);               // Stage 1
-        Invoke("GrowToStage2", 3f); // Stage 2 after 1s
+        Invoke("GrowToStage2", 1f); // Stage 2 after 1s
         Invoke("GrowToStage3", 30f); // Stage 3 after 2s
     }
 
